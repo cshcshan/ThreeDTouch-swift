@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WeigherViewController.swift
 //  ThreeDTouch-swift
 //
 //  Created by Han Chen on 16/6/2016.
@@ -14,7 +14,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WeigherViewController: UIViewController {
   @IBOutlet weak var forceTouchArea_ImageView: UIImageView!
   @IBOutlet weak var force_Label: UILabel!
 

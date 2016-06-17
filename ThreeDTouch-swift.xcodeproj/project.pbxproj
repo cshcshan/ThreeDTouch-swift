@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		330096ED1D13C753000297C4 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330096EC1D13C753000297C4 /* Image.xcassets */; };
+		330096F11D13E283000297C4 /* PeekAndPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330096F01D13E283000297C4 /* PeekAndPopViewController.swift */; };
+		330096F31D13E6C3000297C4 /* PeekAndPopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330096F21D13E6C3000297C4 /* PeekAndPopDetailViewController.swift */; };
+		330096F51D13E7D9000297C4 /* PeekAndPopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330096F41D13E7D9000297C4 /* PeekAndPopCell.swift */; };
 		33E4B8771D1282E7008F4690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4B8761D1282E7008F4690 /* AppDelegate.swift */; };
-		33E4B8791D1282E7008F4690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4B8781D1282E7008F4690 /* ViewController.swift */; };
+		33E4B8791D1282E7008F4690 /* WeigherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4B8781D1282E7008F4690 /* WeigherViewController.swift */; };
 		33E4B87C1D1282E7008F4690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E4B87A1D1282E7008F4690 /* Main.storyboard */; };
 		33E4B8811D1282E7008F4690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E4B87F1D1282E7008F4690 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		330096EC1D13C753000297C4 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		330096F01D13E283000297C4 /* PeekAndPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekAndPopViewController.swift; sourceTree = "<group>"; };
+		330096F21D13E6C3000297C4 /* PeekAndPopDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekAndPopDetailViewController.swift; sourceTree = "<group>"; };
+		330096F41D13E7D9000297C4 /* PeekAndPopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekAndPopCell.swift; sourceTree = "<group>"; };
 		33E4B8731D1282E7008F4690 /* ThreeDTouch-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThreeDTouch-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E4B8761D1282E7008F4690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33E4B8781D1282E7008F4690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33E4B8781D1282E7008F4690 /* WeigherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeigherViewController.swift; sourceTree = "<group>"; };
 		33E4B87B1D1282E7008F4690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33E4B8801D1282E7008F4690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33E4B8821D1282E7008F4690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				33E4B8761D1282E7008F4690 /* AppDelegate.swift */,
-				33E4B8781D1282E7008F4690 /* ViewController.swift */,
+				33E4B8781D1282E7008F4690 /* WeigherViewController.swift */,
+				330096F01D13E283000297C4 /* PeekAndPopViewController.swift */,
+				330096F21D13E6C3000297C4 /* PeekAndPopDetailViewController.swift */,
+				330096F41D13E7D9000297C4 /* PeekAndPopCell.swift */,
 				33E4B87A1D1282E7008F4690 /* Main.storyboard */,
 				330096EC1D13C753000297C4 /* Image.xcassets */,
 				33E4B87F1D1282E7008F4690 /* LaunchScreen.storyboard */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33E4B8791D1282E7008F4690 /* ViewController.swift in Sources */,
+				330096F31D13E6C3000297C4 /* PeekAndPopDetailViewController.swift in Sources */,
+				330096F11D13E283000297C4 /* PeekAndPopViewController.swift in Sources */,
+				330096F51D13E7D9000297C4 /* PeekAndPopCell.swift in Sources */,
+				33E4B8791D1282E7008F4690 /* WeigherViewController.swift in Sources */,
 				33E4B8771D1282E7008F4690 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
